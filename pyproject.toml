@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "attestation"
+version = "0.1.0"
+description = ""
+authors = ["Alexey Dyakonov <dyakonov261@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1.6"
+djangorestframework = "^3.15.2"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.10"
+pillow = "^11.1.0"
+black = "^25.1.0"
+rest-framework-simplejwt = "^0.0.2"
+djangorestframework-simplejwt = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
