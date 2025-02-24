@@ -67,7 +67,7 @@
 #### Фикстуры
 
 Для заполнения базы данных можно воспользоваться файлом [electronic_platform.json](fixtures%2Felectronic_platform.json). Выполнив команду:
->python3 manage.py loaddata fixtures\data_base.json
+>python3 manage.py loaddata fixtures\electronic_platform.json
 
 ### API Документация
 
