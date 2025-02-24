@@ -1,0 +1,58 @@
+[
+  {
+    "model": "electronic_platform.supplier",
+    "pk": 1,
+    "fields": {
+      "name": "Apple",
+      "provider": null,
+      "provider_type": "factory",
+      "debt": "0.00",
+      "creation_time": "2025-02-23T16:11:50.068Z",
+      "level": 0
+    }
+  },
+  {
+    "model": "electronic_platform.supplier",
+    "pk": 2,
+    "fields": {
+      "name": "AppStore",
+      "provider": 1,
+      "provider_type": "retail_network",
+      "debt": "0.00",
+      "creation_time": "2025-02-23T16:32:08.918Z",
+      "level": 1
+    }
+  },
+  {
+    "model": "electronic_platform.product",
+    "pk": 1,
+    "fields": {
+      "title": "Видеокарта",
+      "model": null,
+      "release_date": null,
+      "provider": null
+    }
+  },
+  {
+    "model": "electronic_platform.product",
+    "pk": 2,
+    "fields": {
+      "title": "Iphone",
+      "model": "14",
+      "release_date": null,
+      "provider": 1
+    }
+  },
+  {
+    "model": "electronic_platform.contact",
+    "pk": 1,
+    "fields": {
+      "email": "apple@mail.com",
+      "country": "USA",
+      "city": "Los Altos",
+      "street": "Cupertino",
+      "house_number": null,
+      "provider": 1
+    }
+  }
+]
